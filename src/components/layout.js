@@ -6,13 +6,12 @@
  */
 
 import React from "react"
-import "./layout.css"
 import SiteContainer from './SiteContainer'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import {ThemeProvider} from '@material-ui/core/styles'
 
 
-const Layout = ({ children, title }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <ThemeProvider>
