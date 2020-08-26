@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import { Box } from "@material-ui/core"
 import logo from '../images/Logo.png'
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const useStyles = makeStyles({
