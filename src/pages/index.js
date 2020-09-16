@@ -2,7 +2,8 @@ import React from "react"
 import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import { Box } from "@material-ui/core"
-import logo from '../images/Logo.png'
+import logo from '../images/Logo3_small.svg'
+import logo2 from '../images/Logo3.svg'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -24,7 +25,7 @@ const Index = () => {
       <SEO title="Uni | The Open Source Spoken Language"/>
       <Box height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
         <Box display="flex" flexWrap="wrap" alignItems="center" justifyContent="center">
-          <img style={{margin: "2rem"}} width="150rem" height="150rem" src={logo} alt="Uni Logo"></img>
+          <img style={{margin: "0 1rem"}} width="250rem" height="250rem" src={logo} alt="Uni Logo"></img>
           <Box textAlign="left">
             <Typography variant="h1" className={classes.title}>uni</Typography>
             <Typography variant="h5">The open source spoken language</Typography>
